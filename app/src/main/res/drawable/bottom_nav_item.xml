@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <ripple
+            android:color="#40FFFFFF"> <!-- Ripple color :: WHITE -->
+            <item android:drawable="@drawable/indicator" android:bottom="5dp">
+                <color android:color="@color/bg" />
+            </item>
+
+            <!-- Make sure the ripple doesn't exceed the bounds -->
+            <item android:id="@android:id/mask">
+                <shape>
+                    <corners android:radius="8dp"/>
+                    <solid android:color="?android:colorAccent" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

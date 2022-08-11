@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav.xml"
+    app:startDestination="@id/home">
+
+
+    <include app:graph="@navigation/home"/>
+    <include app:graph="@navigation/discovery"/>
+    <include app:graph="@navigation/profile"/>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.moviverse.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <action
+            android:id="@+id/action_detailsFragment_to_creditFragment"
+            app:destination="@id/creditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvDetailsFragment"
+        android:name="com.example.moviverse.TvDetailsFragment"
+        android:label="fragment_tv_details"
+        tools:layout="@layout/fragment_tv_details" >
+        <action
+            android:id="@+id/action_tvDetailsFragment_to_tvCreditFragment"
+            app:destination="@id/tvCreditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personDetailsFragment"
+        android:name="com.example.moviverse.PersonDetailsFragment"
+        android:label="fragment_person_details"
+        tools:layout="@layout/fragment_person_details" />
+    <fragment
+        android:id="@+id/creditFragment"
+        android:name="com.example.moviverse.CreditFragment"
+        android:label="fragment_credit"
+        tools:layout="@layout/fragment_credit" />
+    <fragment
+        android:id="@+id/tvCreditFragment"
+        android:name="com.example.moviverse.TvCreditFragment"
+        android:label="fragment_tv_credit"
+        tools:layout="@layout/fragment_tv_credit" />
+    <action
+        android:id="@+id/action_global_tvDetailsFragment"
+        app:destination="@id/tvDetailsFragment"/>
+
+    <action
+        android:id="@+id/action_global_detailsFragment"
+        app:destination="@id/detailsFragment"/>
+
+    <action
+        android:id="@+id/action_global_personDetailsFragment"
+        app:destination="@id/personDetailsFragment"/>
+
+</navigation>
