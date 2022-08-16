@@ -3,6 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/box_bg.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/custom_progress_bar.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/edit_text_bg.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/edit_text_bg_focus.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/edt_txt_login_bg.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/facebook_ripple.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/google_ripple.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/gradient_color_btn.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_facebook.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_google.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_guest.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_login.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/ic_signup.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/login_ripple.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/signup_ripple.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/drawable/transparent_background.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/layout/activity_login.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/layout/activity_register.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/bottom_nav_item.xml" value="0.197" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/discover_nav_ic.xml" value="0.196" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/home_active.xml" value="0.197" />
@@ -25,5 +46,8 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>

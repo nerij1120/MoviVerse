@@ -5,4 +5,17 @@
     <string name="profile">Profile</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email" />
+    <string name="password" />
+    <string name="login" />
+    <string name="guest_login" />
+    <string name="or" />
+    <string name="facebook_icon" />
+    <string name="google_icon" />
+    <string name="no_account" />
+    <string name="register_icon" />
+    <string name="register_header" />
+    <string name="name" />
+    <string name="register" />
+    <string name="already_account" />
 </resources>
