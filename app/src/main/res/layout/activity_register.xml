@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/img_3"
+    android:background="@mipmap/register_bg"
     android:backgroundTint="@color/bg"
     android:backgroundTintMode="add"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,7 +22,7 @@
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
             android:contentDescription="@string/register_icon"
-            android:src="@mipmap/img_2"
+            android:src="@mipmap/register_icon"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -94,6 +94,7 @@
             android:transitionName="password"
             style="@style/login_form"
             android:hint="@string/password"
+            app:passwordToggleTint="@color/start_icon_color"
             >
 
             <com.google.android.material.textfield.TextInputEditText

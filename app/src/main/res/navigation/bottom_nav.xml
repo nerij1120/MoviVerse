@@ -1,57 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/bottom_nav.xml"
+    android:id="@+id/bottom_nav"
     app:startDestination="@id/home">
-
 
     <include app:graph="@navigation/home"/>
     <include app:graph="@navigation/discovery"/>
     <include app:graph="@navigation/profile"/>
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.example.moviverse.DetailsFragment"
+        android:id="@+id/detailsFragment2"
+        android:name="com.example.moviverse.view.DetailsFragment"
         android:label="fragment_details"
-        tools:layout="@layout/fragment_details" >
+        tools:layout="@layout/fragment_details">
+        <argument android:name="fragmentNumber"
+            app:argType="integer"
+            android:defaultValue="0"/>
         <action
-            android:id="@+id/action_detailsFragment_to_creditFragment"
-            app:destination="@id/creditFragment" />
+            android:id="@+id/action_detailsFragment2_to_creditFragment"
+            app:destination="@id/creditFragment"
+            app:enterAnim="@anim/from_down"
+            app:exitAnim="@anim/slide_up"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/slide_down" />
     </fragment>
-    <fragment
-        android:id="@+id/tvDetailsFragment"
-        android:name="com.example.moviverse.TvDetailsFragment"
-        android:label="fragment_tv_details"
-        tools:layout="@layout/fragment_tv_details" >
-        <action
-            android:id="@+id/action_tvDetailsFragment_to_tvCreditFragment"
-            app:destination="@id/tvCreditFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/personDetailsFragment"
-        android:name="com.example.moviverse.PersonDetailsFragment"
-        android:label="fragment_person_details"
-        tools:layout="@layout/fragment_person_details" />
+    <action
+        android:id="@+id/discoveryToDetails"
+        app:destination="@+id/detailsFragment2"
+        app:restoreState="true"
+        >
+        <argument android:name="fragmentNumber"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </action>
+    <action
+        android:id="@+id/toTvDetails"
+        app:destination="@+id/tvDetailsFragment"
+        >
+        <argument android:name="fragmentNumber"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </action>
+    <action
+        android:id="@+id/toDetails"
+        app:destination="@+id/personDetailsFragment"
+        >
+        <argument android:name="fragmentNumber"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </action>
     <fragment
         android:id="@+id/creditFragment"
-        android:name="com.example.moviverse.CreditFragment"
+        android:name="com.example.moviverse.view.CreditFragment"
         android:label="fragment_credit"
         tools:layout="@layout/fragment_credit" />
     <fragment
+        android:id="@+id/personDetailsFragment"
+        android:name="com.example.moviverse.view.PersonDetailsFragment"
+        android:label="fragment_person_details"
+        tools:layout="@layout/fragment_person_details">
+        <argument android:name="fragmentNumber"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </fragment>
+    <fragment
+        android:id="@+id/tvDetailsFragment"
+        android:name="com.example.moviverse.view.TvDetailsFragment"
+        android:label="fragment_tv_details"
+        tools:layout="@layout/fragment_tv_details" >
+        <action
+            app:restoreState="true"
+            android:id="@+id/action_tvDetailsFragment_to_tvCreditFragment"
+            app:destination="@id/tvCreditFragment"
+            app:enterAnim="@anim/from_down"
+            app:exitAnim="@anim/slide_up"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
         android:id="@+id/tvCreditFragment"
-        android:name="com.example.moviverse.TvCreditFragment"
+        android:name="com.example.moviverse.view.TvCreditFragment"
         android:label="fragment_tv_credit"
         tools:layout="@layout/fragment_tv_credit" />
-    <action
-        android:id="@+id/action_global_tvDetailsFragment"
-        app:destination="@id/tvDetailsFragment"/>
-
-    <action
-        android:id="@+id/action_global_detailsFragment"
-        app:destination="@id/detailsFragment"/>
-
-    <action
-        android:id="@+id/action_global_personDetailsFragment"
-        app:destination="@id/personDetailsFragment"/>
-
 </navigation>

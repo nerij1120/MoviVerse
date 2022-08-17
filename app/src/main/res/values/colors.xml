@@ -15,11 +15,11 @@
     <color name="end_color">#EF2D1A</color>
     <color name="white_25">#40FFFFFF</color>
     <color name="white_50">#80FFFFFF</color>
-    <color name="shadow">#1F000000</color>
+    <color name="onSurface">#4DDADADA</color>
     <color name="icon">#BBBBBB</color>
     <color name="small_txt">#BCBCBC</color>
     <color name="grey">#808080</color>
     <color name="logout">#B23B3B</color>
-    <color name="onSurface">#4DDADADA</color>
+    <color name="shadow">#1F000000</color>
 
 </resources>

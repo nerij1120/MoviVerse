@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/img"
+    android:background="@mipmap/login_background"
     android:backgroundTint="@color/bg"
     android:backgroundTintMode="add"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,7 +22,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/img_1"
+            android:src="@mipmap/login_ic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -71,6 +71,7 @@
             app:passwordToggleEnabled="true"
             style="@style/login_form"
             android:hint="@string/password"
+            app:passwordToggleTint="@color/start_icon_color"
             >
 
             <com.google.android.material.textfield.TextInputEditText

@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
-        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
-        <item name="android:elevation">10dp</item>
-    </style>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
-        <item name="colorPrimary">@color/primary</item>
-    </style>
     <style name="login_form" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_marginStart">30dp</item>
         <item name="android:layout_marginTop">10dp</item>
@@ -16,12 +9,87 @@
         <item name="boxStrokeWidthFocused">0dp</item>
         <item name="errorEnabled">true</item>
         <item name="android:textColorHint">@color/white_50</item>
+        <item name="startIconTint">@color/start_icon_color</item>
         <item name="hintTextColor">@color/bg</item>
     </style>
+
+    <style name="settings_form" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="errorEnabled">true</item>
+        <item name="android:textColorHint">@color/white_25</item>
+        <item name="startIconTint">@color/start_icon_color_settings</item>
+        <item name="hintTextColor">@color/purple_200</item>
+    </style>
+
+    <style name="dialog_form" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="errorEnabled">true</item>
+        <item name="android:textColorHint">@color/white_25</item>
+        <item name="startIconTint">@color/start_icon_color_settings</item>
+        <item name="hintTextColor">@color/purple_200</item>
+    </style>
+
+    <style name="hint_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="login_button">
         <item name="android:layout_marginTop">10dp</item>
         <item name="textAllCaps">false</item>
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="Widget.App.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TabLayout</item>
+        <item name="tabIndicator">@drawable/tab_indicator</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TabLayout" parent="">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSurface">@color/bg</item>
+        <item name="colorOnSurface">#E2E2E2</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/purple_700</item>
+        <item name="colorSurface">@color/edt_txt_bg</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="shapeAppearanceMediumComponent">@style/RoundShapeAppearance</item>
+    </style>
+
+    <style name="RoundShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.App.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Snackbar</item>
+        <item name="actionTextColorAlpha">1</item>
+    </style>
+
+    <style name="Widget.App.SnackbarTextView" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Snackbar" parent="">
+        <item name="colorSurface">@color/edt_txt_bg</item>
+    </style>
 </resources>
