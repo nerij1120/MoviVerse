@@ -1,14 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.PersonDetailsFragment">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:id="@+id/constraintLayout"
+        tools:context=".view.PersonDetailsFragment">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        <eightbitlab.com.blurview.BlurView
+            android:id="@+id/back_btn_blurView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/play_icon"
+                android:src="@drawable/back_btn" />
+
+        </eightbitlab.com.blurview.BlurView>
+
+        <TextView
+            android:id="@+id/cast_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/cast_name"
+            android:textSize="@dimen/header_txt_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profilePic"
+            />
+
+
+
+        <TextView
+            android:id="@+id/knownHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/known_for"
+            android:textColor="@color/small_txt"
+            app:layout_constraintBottom_toBottomOf="@id/knownIc"
+            app:layout_constraintStart_toEndOf="@+id/knownIc"
+            app:layout_constraintTop_toTopOf="@id/knownIc" />
+
+        <TextView
+            android:id="@+id/knownTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/acting"
+            android:textColor="@color/small_txt"
+            app:layout_constraintBottom_toBottomOf="@id/knownHeader"
+            app:layout_constraintStart_toEndOf="@+id/knownHeader"
+            app:layout_constraintTop_toTopOf="@id/knownHeader" />
+
+        <ImageView
+            android:id="@+id/knownIc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_famous"
+            app:tint="@color/icon"
+            app:layout_constraintStart_toStartOf="@id/cast_name"
+            app:layout_constraintTop_toBottomOf="@id/cast_name" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toBottomOf="@id/knownIc"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/placeOfBirthLayout"
+            >
+
+            <ImageView
+                android:id="@+id/placeOfBirthIc"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_hometown"
+                app:tint="@color/icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/placeOfBirthHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/place_of_birth"
+                android:textColor="@color/small_txt"
+                app:layout_constraintBottom_toBottomOf="@id/placeOfBirthIc"
+                app:layout_constraintStart_toEndOf="@id/placeOfBirthIc"
+                app:layout_constraintTop_toTopOf="@id/placeOfBirthIc" />
+
+            <TextView
+                android:id="@+id/placeOfBirthTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/place_of_birth_txt"
+                android:textColor="@color/small_txt"
+                app:layout_constraintBottom_toBottomOf="@id/placeOfBirthIc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/placeOfBirthHeader"
+                app:layout_constraintTop_toTopOf="@id/placeOfBirthIc" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:dividerColor="#515151"
+            android:id="@+id/divider"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/placeOfBirthLayout"/>
+
+
+        <TextView
+            android:id="@+id/ageHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/age_header"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/placeOfBirthLayout"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <TextView
+            android:id="@+id/birthDeathDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/birth_death_date"
+            android:textColor="@color/small_txt"
+            app:layout_constraintStart_toStartOf="@id/ageHeader"
+            app:layout_constraintTop_toBottomOf="@id/ageHeader" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:dividerColor="#515151"
+            android:id="@+id/divider2"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/birthDeathDate"/>
+
+        <TextView
+            android:id="@+id/overview_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/biography"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+        <TextView
+            android:id="@+id/overview_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="end"
+            android:text="@string/overview_txt"
+            android:textColor="@color/small_txt"
+            app:layout_constraintTop_toBottomOf="@id/overview_header" />
+
+        <LinearLayout
+            android:id="@+id/dropdownLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/overview_txt"
+            android:gravity="center_horizontal"
+            >
+            <ImageView
+                android:id="@+id/dropdownIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                app:tint="@color/icon" />
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
