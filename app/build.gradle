@@ -58,7 +58,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:30.3.1')
 
     //Firebase Login
-    implementation 'com.google.firebase:firebase-auth-ktx:21.0.7'
+    implementation 'com.google.firebase:firebase-auth-ktx'
 
     //Firebase database access
     implementation 'com.google.firebase:firebase-database-ktx:20.0.5'
