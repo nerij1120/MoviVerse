@@ -1,4 +1,20 @@
 package com.example.moviverse.viewmodel.discovery
 
-class RomanceViewModel {
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
+import com.example.moviverse.response.MoviesList
+import kotlinx.coroutines.launch
+import retrofit2.Response
+
+class RomanceViewModel: DiscoveryViewModel() {
+    private var _myResponse: MutableLiveData<Response<MoviesList>> = MutableLiveData()
+    val myResponse: LiveData<Response<MoviesList>> get() = _myResponse
+
+    override fun getMovies(page: Int){
+        viewModelScope.launch {
+            val response = repository.getRomance(page)
+            _myResponse.value = response
+        }
+    }
 }

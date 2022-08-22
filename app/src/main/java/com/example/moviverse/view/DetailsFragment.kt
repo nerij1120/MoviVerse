@@ -268,7 +268,7 @@ class DetailsFragment : Fragment() {
             )
             savePlayingState()
             findNavController().navigate(
-                BottomNavDirections.discoveryToDetails(2),
+                BottomNavDirections.toDetails(2),
                 extras
             )
         }, 2)

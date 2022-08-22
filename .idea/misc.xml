@@ -48,6 +48,7 @@
         <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/layout/fragment_tv_shows.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/MoviVerse/app/src/main/res/layout/movie_item_shimmer.xml" value="0.22435897435897437" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/bottom_nav_item.xml" value="0.197" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/circle_progressbar.xml" value="0.1" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/discover_nav_ic.xml" value="0.196" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/home_active.xml" value="0.197" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/home_nav_ic.xml" value="0.196" />
@@ -58,9 +59,28 @@
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/ic_profile_inactive.xml" value="0.196" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/indicator.xml" value="0.196" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/drawable/profile_nav_ic.xml" value="0.197" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/activity_login.xml" value="0.2657407407407407" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/activity_main.xml" value="0.38832252085264135" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/activity_register.xml" value="0.1890625" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/activity_splash.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/credit_item.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/empty_movie.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_action.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_credit.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_details.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_discovery.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_home.xml" value="0.36102564102564105" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_horror.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_person_details.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_profile.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_romance.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_search.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_tv_credit.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_tv_details.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/fragment_tv_shows.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/genre_item.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/movie_item_home.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/layout/movie_item_shimmer.xml" value="0.36102564102564105" />
         <entry key="..\:/Users/loc_m/AndroidStudioProjects/MoviVerse/app/src/main/res/menu/bottom_nav.xml" value="0.1890625" />
       </map>
     </option>
