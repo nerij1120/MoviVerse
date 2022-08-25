@@ -14,6 +14,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.example.moviverse.BottomNavDirections
 import com.example.moviverse.R
 import com.example.moviverse.adapter.TvShowsAdapter
 import com.example.moviverse.databinding.FragmentTvShowsBinding

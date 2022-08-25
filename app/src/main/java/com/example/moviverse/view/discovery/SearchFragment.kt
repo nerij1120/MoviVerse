@@ -1,6 +1,5 @@
 package com.example.moviverse.view.discovery
 
-import android.app.appsearch.SearchResult
 import android.content.Context.INPUT_METHOD_SERVICE
 import android.os.Bundle
 import android.os.Handler
@@ -9,13 +8,13 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.transition.TransitionInflater
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.FragmentNavigatorExtras
@@ -23,9 +22,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.moviverse.R
+import com.example.moviverse.BottomNavDirections
 import com.example.moviverse.adapter.SearchAdapter
 import com.example.moviverse.databinding.FragmentSearchBinding
+import com.example.moviverse.model.SearchResult
 import com.example.moviverse.viewmodel.DetailsViewModel
 import com.example.moviverse.viewmodel.discovery.SearchViewModel
 import java.util.*

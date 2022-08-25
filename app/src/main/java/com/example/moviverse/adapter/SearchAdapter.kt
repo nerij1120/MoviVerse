@@ -1,6 +1,5 @@
 package com.example.moviverse.adapter
 
-import android.app.appsearch.SearchResult
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +10,7 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 import com.example.moviverse.R
 import com.example.moviverse.databinding.MovieItemDiscoveryBinding
+import com.example.moviverse.model.SearchResult
 import com.example.moviverse.utils.Constant.Companion.IMAGE_URL
 import java.text.ParseException
 import java.text.SimpleDateFormat
