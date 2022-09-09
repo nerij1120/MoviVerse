@@ -80,38 +80,40 @@ class TvCreditFragment : Fragment() {
                 timer = Timer()
                 timer.schedule(object: TimerTask(){
                     override fun run() {
-                        Handler(Looper.getMainLooper()).post {
-                            if(_binding != null){
-                                val q = p0?.toString()?.trim()
-                                if (q != null && q != "") {
-                                    val arrayList: ArrayList<Person> = ArrayList()
-                                    for(item in creditsList){
-                                        if(item.name.lowercase().contains(q.lowercase())){
-                                            arrayList.add(item)
+                        Handler(Looper.getMainLooper()).postDelayed(
+                            {
+                                if(_binding != null){
+                                    val q = p0?.toString()?.trim()
+                                    if (q != null && q != "") {
+                                        val arrayList: ArrayList<Person> = ArrayList()
+                                        for(item in creditsList){
+                                            if(item.name.lowercase().contains(q.lowercase())){
+                                                arrayList.add(item)
+                                            }
                                         }
-                                    }
-                                    if(arrayList.size == 0){
-                                        binding.noDataImg.visibility = View.VISIBLE
-                                        binding.noDataTxt.visibility = View.VISIBLE
-                                        if(adapter.personList.size != 0){
-                                            adapter.personList.clear()
+                                        if(arrayList.size == 0){
+                                            binding.noDataImg.visibility = View.VISIBLE
+                                            binding.noDataTxt.visibility = View.VISIBLE
+                                            if(adapter.personList.size != 0){
+                                                adapter.personList.clear()
+                                                adapter.notifyDataSetChanged()
+                                            }
+                                        }
+                                        else{
+                                            adapter.personList = arrayList
                                             adapter.notifyDataSetChanged()
                                         }
+                                        stopShimmer()
                                     }
                                     else{
-                                        adapter.personList = arrayList
+                                        adapter.personList.clear()
+                                        adapter.personList.addAll(creditsList)
                                         adapter.notifyDataSetChanged()
+                                        stopShimmer()
                                     }
-                                    stopShimmer()
                                 }
-                                else{
-                                    adapter.personList.clear()
-                                    adapter.personList.addAll(creditsList)
-                                    adapter.notifyDataSetChanged()
-                                    stopShimmer()
-                                }
-                            }
-                        }
+                            }, 500
+                        )
                     }
                 }, delay)
             }

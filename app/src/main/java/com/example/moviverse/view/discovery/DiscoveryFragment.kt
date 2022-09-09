@@ -38,8 +38,7 @@ class DiscoveryFragment : Fragment() {
                 true
             }
         }
-        //not optimized
-        //binding.viewPager.offscreenPageLimit = 3
+        binding.viewPager.offscreenPageLimit = 3
         binding.viewPager.setPageTransformer(ZoomOutPageTransformer())
 
         binding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
