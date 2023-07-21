@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="login_form" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="errorEnabled">true</item>
+        <item name="errorTextAppearance">@style/hint_text</item>
+        <item name="hintTextAppearance">@style/hint_text</item>
+    </style>
+
+    <style name="settings_edt_form" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/account_box</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="settings_form" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="errorEnabled">true</item>
+    </style>
+
+    <style name="dialog_form" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="errorEnabled">true</item>
+    </style>
+
+    <style name="hint_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

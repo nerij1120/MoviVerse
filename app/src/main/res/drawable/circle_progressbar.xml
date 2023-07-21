@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:fromDegrees="-90"
+    android:toDegrees="270"
+    android:pivotX="50%"
+    android:pivotY="50%"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <layer-list>
+        <item android:id="@+id/progress_bar">
+            <layer-list>
+                <item>
+                    <shape android:shape="ring"
+                        android:useLevel="false">
+                        <size android:width="150dp"
+                            android:height="150dp"/>
+<!--                        <solid android:color="@color/grey"/>-->
+<!--                        <gradient-->
+<!--                            android:useLevel="false"-->
+<!--                            android:type="sweep"-->
+<!--                            android:startColor="#0DFAF0CA"-->
+<!--                            android:endColor="#CCFF8F71"-->
+<!--                            android:centerColor="#66EF2D1A"-->
+<!--                            />-->
+                    </shape>
+                </item>
+            </layer-list>
+        </item>
+
+<!--        <item android:right="13dp" android:bottom="45dp"-->
+<!--            android:gravity="right|bottom">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="225"-->
+<!--                    android:startColor="#0DFAF0CA"-->
+<!--                    android:endColor="#1AEF2D1A"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+        <item android:bottom="25dp" android:right="27dp"
+            android:gravity="bottom|right">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+                <!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="225"
+                    android:startColor="#1AFAF0CA"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+<!--        <item android:right="45dp" android:bottom="13dp"-->
+<!--            android:gravity="right|bottom">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="180"-->
+<!--                    android:startColor="#26FAF0CA"-->
+<!--                    android:endColor="#4DEF2D1A"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+        <item android:bottom="9dp"
+            android:gravity="bottom|center_horizontal">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+                <!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="180"
+                    android:startColor="#40FAF0CA"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+<!--        <item android:left="45dp" android:bottom="13dp"-->
+<!--            android:gravity="left|bottom">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="180"-->
+<!--                    android:startColor="#4DFAF0CA"-->
+<!--                    android:endColor="#73EF2D1A"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+
+        <item android:bottom="25dp" android:left="27dp"
+            android:gravity="bottom|left">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+                <!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="135"
+                    android:startColor="#59FAF0CA"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+<!--        <item android:left="13dp" android:bottom="45dp"-->
+<!--            android:gravity="left|bottom">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="135"-->
+<!--                    android:startColor="#66FAF0CA"-->
+<!--                    android:endColor="#8CEF2D1A"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+        <item android:left="9dp"
+            android:gravity="left|center">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+                <!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="90"
+                    android:startColor="?attr/colorSecondary"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+<!--        <item android:left="13dp" android:top="45dp"-->
+<!--            android:gravity="left|top">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="90"-->
+<!--                    android:startColor="#66EF2D1A"-->
+<!--                    android:endColor="#BFFF8F71"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+        <item android:left="27dp" android:top="25dp"
+            android:gravity="left|top">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+                <!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="45"
+                    android:startColor="?attr/colorSecondary"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+<!--        <item android:left="45dp" android:top="13dp"-->
+<!--            android:gravity="left|top">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="45"-->
+<!--                    android:startColor="#80EF2D1A"-->
+<!--                    android:endColor="#D9FF8F71"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+
+        <item android:top="9dp"
+            android:gravity="top|center_horizontal">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+                <!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="0"
+                    android:startColor="?attr/colorSecondary"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+<!--        <item android:right="45dp" android:top="13dp"-->
+<!--            android:gravity="right|top">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="0"-->
+<!--                    android:startColor="#99EF2D1A"-->
+<!--                    android:endColor="#F2FF8F71"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+
+        <item android:right="27dp" android:top="25dp"
+            android:gravity="right|top">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+                <!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="315"
+                    android:startColor="?attr/colorSecondary"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+<!--        <item android:right="13dp" android:top="45dp"-->
+<!--            android:gravity="right|top">-->
+<!--            <shape android:shape="rectangle"-->
+<!--                android:useLevel="false"-->
+<!--                >-->
+<!--                <size android:height="16dp"-->
+<!--                    android:width="16dp" />-->
+<!--                &lt;!&ndash;                <solid android:color="#CCFF8F71"/>&ndash;&gt;-->
+
+<!--                <corners android:radius="18dp" />-->
+<!--                <gradient-->
+<!--                    android:useLevel="false"-->
+<!--                    android:type="linear"-->
+<!--                    android:angle="315"-->
+<!--                    android:startColor="#BFEF2D1A"-->
+<!--                    android:endColor="#FF8F71"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </item>-->
+
+        <item android:right="9dp"
+            android:gravity="right|center_vertical">
+            <shape android:shape="rectangle"
+                android:useLevel="false"
+                >
+                <size android:height="16dp"
+                    android:width="16dp" />
+<!--                <solid android:color="#CCFF8F71"/>-->
+
+                <corners android:radius="18dp" />
+                <gradient
+                    android:useLevel="false"
+                    android:type="linear"
+                    android:angle="315"
+                    android:startColor="?attr/colorSecondary"
+                    android:endColor="?attr/colorPrimary"
+                    />
+            </shape>
+        </item>
+
+
+
+    </layer-list>
+
+</rotate>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.movieapp.view.activity.DetailsActivity">
+    <item
+        android:id="@+id/action_favorites"
+        android:title="@string/favorites_header"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/avd_favorites"/>
+</menu>

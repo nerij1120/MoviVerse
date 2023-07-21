@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.movieapp.view.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/discovery"
+        android:name="com.example.movieapp.view.discovery.DiscoveryFragment"
+        android:label="Discovery"
+        tools:layout="@layout/fragment_discovery" >
+        <action
+            android:id="@+id/action_discoveryFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.movieapp.view.discovery.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.movieapp.view.profile.ProfilePageFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_page" >
+        <action
+            android:id="@+id/action_profilePageFragment_to_accountFragment"
+            app:destination="@id/accountFragment"
+            app:enterAnim="@anim/from_down"
+            app:exitAnim="@anim/slide_up"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_profilePageFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment"
+            app:enterAnim="@anim/from_down"
+            app:exitAnim="@anim/slide_up"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_profilePageFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment"
+            app:enterAnim="@anim/from_down"
+            app:exitAnim="@anim/slide_up"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.movieapp.view.profile.AccountFragment"
+        android:label="Account Details"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.movieapp.view.profile.FavoritesFragment"
+        android:label="Favorites List"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.movieapp.view.profile.ChangePasswordFragment"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_change_password" />
+
+</navigation>

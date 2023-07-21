@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">MoviVerse</string>
+    <string name="email">Email</string>
+    <string name="login_icon">Login icon</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="guest_login">Guest Login</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="or">OR</string>
+    <string name="facebook_icon">Facebook Icon</string>
+    <string name="instagram_icon">Instagram Icon</string>
+    <string name="google_icon">Google Icon</string>
+    <string name="register_header">Come join us</string>
+    <string name="register_icon">Register Icon</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="login_underline"><u>Login</u></string>
+    <string name="home">Home</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discovery">Discovery</string>
+    <string name="profile">Profile</string>
+    <string name="greeting_txt">Hello Guest,</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="movie_title">Star wars: The Last Jedi</string>
+    <string name="official_trailer">Official Trailer</string>
+    <string name="imdb">TMDb</string>
+    <string name="rating">7.0</string>
+    <string name="popular">What\'s Popular</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="star_image">Star Image</string>
+    <string name="main_image">Main Image</string>
+    <string name="play_icon">Play Icon</string>
+    <string name="nothing_found">Nothing found</string>
+    <string name="no_movies_found">No Movies Found</string>
+    <string name="no_tv_found">No Tv Shows Found</string>
+    <string name="rating_txt">7.0 (TMdb)</string>
+    <string name="release_date">Release Date:</string>
+    <string name="date_txt">Dec 9, 2017</string>
+    <string name="genre">Genre</string>
+    <string name="overview">Overview</string>
+    <string name="overview_txt">Rey (Daisy Ridley) finally manages to find the legendary Jedi knight, Luke Skywalker (Mark Hamill) on an island with a magical aura. The heroes of The Force Awakens including Leia, Finn</string>
+    <string name="cast_header"><![CDATA[Cast & Drew]]></string>
+    <string name="cast_name">Stephanie Beatriz</string>
+    <string name="movie_length">152 minutes</string>
+    <string name="cast_image">Cast Image</string>
+    <string name="more">More…</string>
+    <string name="time_icon">Time Icon</string>
+    <string name="favorite_icon">Favorite Icon</string>
+    <string name="no_cast_found">No Cast Found</string>
+    <string name="logout">Logout</string>
+    <string name="action">Action</string>
+    <string name="header_search">Discover more movies, tv shows</string>
+    <string name="search_hint">Title</string>
+    <string name="tab_1">Movies</string>
+    <string name="tab_2">TV Shows</string>
+    <string name="tab_3">Action</string>
+    <string name="tab_4">Comedy</string>
+    <string name="tab_5">Horror</string>
+    <string name="tab_6">Romance</string>
+    <string name="tab_7">Animation</string>
+    <string name="search_txt">Let\'s discover more</string>
+    <string name="no_video">No Video Found</string>
+    <string name="display_name">Guest</string>
+    <string name="account">Account</string>
+    <string name="favorites">Favorites List</string>
+    <string name="change_password">Change Password</string>
+
+    <string name="facebook_app_id">591752359096027</string>
+    <string name="fb_login_protocol_scheme">fb591752359096027</string>
+    <string name="facebook_client_token">02e9bb1359771ea1297f611356ec3f78</string>
+    <string name="tap_to_change">Tap to change Avatar</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="no_movies_favorites">No movie in your favorites list</string>
+    <string name="no_tvShows_favorites">No TV Show in your favorites list</string>
+    <string name="login_to_see_favorites">Please Login to see your favorites list</string>
+    <string name="age_header">Birth Date - Death Date</string>
+    <string name="birth_death_date">Oct 23, 1976 - Now</string>
+    <string name="known_for">Known for:</string>
+    <string name="acting">Acting</string>
+    <string name="place_of_birth">Place of birth:</string>
+    <string name="place_of_birth_txt">Vancouver, British Columbia, Canada</string>
+    <string name="unknown">Unknown</string>
+    <string name="biography">Biography</string>
+    <string name="first_air_date">First Air Date</string>
+    <string name="cast_amp_crew"><![CDATA[Cast & Crew]]></string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="dialog_header">Please Re-Authenticate to change your Email</string>
+    <string name="re_authenticate">Submit</string>
+    <string name="recommend_for_you">Recommend for you</string>
+    <string name="continue_watching">Continue Watching</string>
+    <string name="person_name">Person Name</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="runtime">Runtime:</string>
+    <string name="rating_header">Rating:</string>
+    <string name="favorites_header">Favorites</string>
+    <string name="title_activity_person">PersonActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="bg">#15141F</color>
+    <color name="edt_txt_bg">#211F30</color>
+    <color name="primary">#FF8F71</color>
+    <color name="variant">#A14A33</color>
+    <color name="end_color">#EF2D1A</color>
+    <color name="onSurface">#4DDADADA</color>
+    <color name="grey">#808080</color>
+</resources>
